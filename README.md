@@ -4,7 +4,7 @@ Lightweight web quiz to revisit memories from past holidays — one multiple-cho
 
 ## Status
 
-Placeholder repo; app implementation follows the [PRD](https://www.notion.so/35dda74ef0458176a935ee7c25a0ad19) (Notion).
+MVP scaffold in place (Vite + React + TypeScript) per the [PRD](https://www.notion.so/35dda74ef0458176a935ee7c25a0ad19) (Notion): stubbed questions, single quiz view, no runtime network calls.
 
 ## Principles
 
@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-(Commands will work once the Vite app scaffold is added.)
+`npm run build` produces static assets only (no external API calls for the quiz).
 
 ## License
 
